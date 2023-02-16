@@ -23,9 +23,9 @@ public class Main {
      */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.print("Enter F : ");
+        System.out.print("Enter Temperature in Fahrenheit unit : ");
         double tempInF = in.nextDouble();
-        System.out.print("Temp in C : " + tempCalSessionBean.fToC(tempInF));
+        System.out.print("Temperature in Celsius unit : " + tempCalSessionBean.fToC(tempInF));
     }
     
 }
